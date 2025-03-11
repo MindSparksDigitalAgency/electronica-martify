@@ -65,6 +65,7 @@ const ProductDetail = () => {
       )
     : 0;
 
+  // Handle via whatsapp
   const handleBuyViaWhatsApp = () => {
     const phoneNumber = "6281234567890"; // Ganti dengan nomor WhatsApp toko
     const message = `Halo, saya ingin membeli *${product.name}* sebanyak *${quantity}* pcs. Apakah masih tersedia?`;
