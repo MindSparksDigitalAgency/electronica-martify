@@ -12,6 +12,7 @@ export interface Product {
   rating: number;
   inStock: boolean;
   specs?: Record<string, string>;
+  dateAdded: string;
 }
 
 export interface CartItem {
