@@ -32,6 +32,8 @@ const Products = () => {
     indexOfLastProduct
   );
 
+  // Fix pull access error to mindsparks teams
+
   return (
     <div className="min-h-screen">
       <Navbar />
